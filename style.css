@@ -1,0 +1,25 @@
+#rrr{
+    width: 100%;
+}
+
+body{
+    background-position: center;
+    background-size:contain;
+
+}
+
+canvas{
+    background-color: white;
+        animation-name: example1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        margin-top: 230px;
+        border: 0px ;
+    
+        
+    }
+    
+    @keyframes example1{
+        from{box-shadow:  4px 4px 35px blue;}
+        to{box-shadow:  4px 4px 35px purple;}
+    }
